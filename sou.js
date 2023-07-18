@@ -43,5 +43,6 @@ $(function() {
         $('#word').empty();
         $('#word').hide();
     })
-
+    let year = (new Date).getFullYear();
+    $('#show-time').text(year)
 })
